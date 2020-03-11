@@ -318,7 +318,7 @@ a:focus {
 		content: '\2015';
 	}
 	.frame__nav {
-		display: block;
+		display: grid;/*block;*/
 		grid-area: nav;
 		align-self: center;
 		pointer-events: auto;
