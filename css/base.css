@@ -195,7 +195,7 @@ a:focus {
 .content__title {
 	font-size: 10vw;
 	will-change: transform;
-	mix-blend-mode: overlay;
+	/*mix-blend-mode: overlay;***********************************************************************************/
 	text-align: center;
 	color: var(--color-title);
 	pointer-events: none;
