@@ -237,6 +237,30 @@ a:focus {
 	height: var(--cell-size);
 	outline: 1px solid rgba(0,0,0,0.87);
 }
+.grid__item-inner1 {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	background-position: 50% 50%;
+	background-size: cover;
+}
+
+.demo-3 .grid__item-inner1 {
+	background-blend-mode: color-dodge;
+	background-color: #332d4a;
+}
+
+.grid__item-inner1::after {
+	content: '';/*******************************************************************************************************add content*****/
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.8);/*******************************************************************************************/
+	transition: background 0.1s ease;
+	text-align: center;/****************************************************************************************************/
+}
 
 .grid__item-inner {
 	width: 100%;
@@ -256,14 +280,15 @@ a:focus {
 }
 
 .grid__item-inner::after {
-	content: '';
+	content: '';/*******************************************************************************************************add content*****/
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
 	height: 100%;
-	background: rgba(0,0,0,0.87);
+	background: rgba(0,0,0,0.8);/*******************************************************************************************/
 	transition: background 0.1s ease;
+	text-align: center;/****************************************************************************************************/
 }
 
 .demo-4 .grid__item-inner::after {
