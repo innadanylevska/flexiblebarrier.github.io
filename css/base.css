@@ -357,7 +357,7 @@ a:focus {
 		margin: 0;
 		grid-area: demos;
 		justify-self: start;
-		align-self: center;
+		/*align-self: center;*/
 		pointer-events: auto;
 	}
 	.frame a {
