@@ -339,6 +339,11 @@ a:focus {
 		display: block;
 		justify-self: end;
 	}
+	
+	.frame__main4 {
+		display: block;
+		/*justify-self: end;*************************************************************************************/
+	}
 	.frame__main::before {
 		content: '\2015';
 	}
