@@ -320,7 +320,7 @@ a:focus {
 		height: 100vh;
 		padding: 2rem 2rem 2.5rem;
 		pointer-events: none;
-		grid-template-columns: 30% 40% 30%;
+		grid-template-columns: 40% 30% 30%;
 		grid-template-rows: auto auto auto;
 		grid-template-areas: 'nav demos main'
 							'... ... ...'
