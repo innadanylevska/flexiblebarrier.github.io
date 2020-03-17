@@ -292,7 +292,7 @@ a:focus {
 }
 
 .demo-4 .grid__item-inner::after {
-	background: rgba(255,255,255,0);
+	/*background: rgba(255,255,255,0);****************************************************************************/
 }
 
 .grid__item-inner:hover::after {
