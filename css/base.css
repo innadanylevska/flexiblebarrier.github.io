@@ -325,6 +325,7 @@ a:focus {
 		grid-template-areas: 'nav demos main'
 							'... ... ...'
 							'title ... version';
+
 	}
 	.frame__title-wrap {
 		grid-area: title;
@@ -371,5 +372,12 @@ a:focus {
 	.grid-wrap {
 		height: 100vh;
 		overflow: hidden;
+	}
+	.frame, 
+	.content, 
+	.grid-wrap {		
+		position: -webkit-sticky;
+  		position: sticky;
+  		top: 0;
 	}
 }
