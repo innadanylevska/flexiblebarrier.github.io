@@ -12,7 +12,7 @@ article,aside,details,figcaption,figure,footer,header,hgroup,main,nav,section,su
 body {
 	--color-text: #fff;
 	--color-bg: #000;
-	--color-link: #5a45a0;
+	--color-link: #3a07e4;/*#5a45a0;*/
 	--color-link-hover: #fff;
 	--color-bg-content: #5b6598;
 	--color-title: #fff;
