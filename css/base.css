@@ -373,8 +373,17 @@ a:focus {
 		height: 100vh;
 		overflow: hidden;
 	}
+	
+	.demo-4 {
+    width: 100px;
+    height: 100px;
+    background: #878fb5;
+    left: 20px;
+    top: 10px;
+    position: fixed;
 }
-/*@media screen and (max-width: 360) {
+/*}
+@media screen and (max-width: 360) {
 	.frame, 
 	.content, 
 	.grid-wrap {		
