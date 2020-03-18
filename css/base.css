@@ -374,7 +374,11 @@ a:focus {
 		overflow: hidden;
 	}
 	
-	.demo-4 {
+
+}
+@media screen and (max-width: 360) {
+	
+		.demo-4 {
     width: 100px;
     height: 100px;
     background: #878fb5;
@@ -382,9 +386,7 @@ a:focus {
     top: 10px;
     position: fixed;
 }
-/*}
-@media screen and (max-width: 360) {
-	.frame, 
+	/*.frame, 
 	.content, 
 	.grid-wrap {		
 		position: -webkit-sticky;
